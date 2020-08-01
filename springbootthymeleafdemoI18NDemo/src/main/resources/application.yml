@@ -1,0 +1,11 @@
+server:
+  port:  9090
+spring:
+  messages:
+    basename: message_en
+    encoding: UTF-8
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    
+  
